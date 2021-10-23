@@ -1,3 +1,6 @@
+// Adam forked you hard
+//Josh was here
+
 int inpin = 8;
 int outpin1 = 7;
 int outpin2 = 10;
@@ -9,7 +12,8 @@ void setup() {
   pinMode(outpin2, OUTPUT);
   pinMode(outpin3, OUTPUT);
 }
-// Adam forked you hard
+
+
 void loop() {
   // put your main code here, to run repeatedly:
   if (digitalRead(inpin) == HIGH) {
