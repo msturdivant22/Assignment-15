@@ -9,7 +9,7 @@ void setup() {
   pinMode(outpin2, OUTPUT);
   pinMode(outpin3, OUTPUT);
 }
-
+// Adam forked you hard
 void loop() {
   // put your main code here, to run repeatedly:
   if (digitalRead(inpin) == HIGH) {
